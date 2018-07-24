@@ -1,0 +1,67 @@
+.images img{
+  height: 400px;
+  width: 400px;
+  border: 8px rgb(153, 0, 0) solid;
+  border-radius: 8px;
+}
+
+footer {
+  height: 20px;
+  color: magenta;
+  text-align: center;
+  padding: 25px;
+  font-size: 24px;
+}
+
+body{
+  font-family: 'Montserrat', cursive;
+}
+
+.columns {
+  width:33.33%;
+  float: left;
+}
+
+.columns img{
+  width: 90%;
+  border-radius:50%;
+}
+
+.columns_1 {
+  width: 50%;
+  float: left;
+}
+
+.columns_1 img{
+  width: 90%;
+  border-radius:50%;
+}
+
+h1, h2, h4 {
+  text-decoration: underline;
+}
+
+nav {
+  width: 25%;
+  float: right;
+  font-size: 20px;
+  margin-top: 50px;
+  color: white;
+  background-color: black;
+}
+
+nav li{
+  list-style: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+
+nav a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: blue;
+  color: red;
+}
